@@ -1,0 +1,1 @@
+[![Build Status](https://dev.azure.com/SkDevTraining/Republic-training/_apis/build/status%2FSkandhro.gitapp?branchName=main)](https://dev.azure.com/SkDevTraining/Republic-training/_build/latest?definitionId=3&branchName=main)
