@@ -1,0 +1,21 @@
+﻿name: PiplineWorkflow
+
+on:
+  push:
+   branches:
+      - main
+  pull_request:
+   branches:
+     - main
+
+jobs:
+    build:
+        name: Azure Pipeline
+        runs-on: ubuntu-latest
+        Steps:
+        - name: Azure Pipelines Action
+         uses: Azure/pipelines@v1
+         with:
+           azure-devops-project-url: https://dev.azure.com/SkDevTraining/Republic-training
+           azure-pipeline-name: 'Skandhro.gitapp'
+           azure-devops-token: ${{ secrets.AZUREE_DVEOPS_TOKEN }}
