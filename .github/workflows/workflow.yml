@@ -17,5 +17,5 @@ jobs:
          uses: Azure/pipelines@v1
          with:
            azure-devops-project-url: https://dev.azure.com/SkDevTraining/Republic-training
-           azure-pipeline-name: 'Skandhro.gitapp'
+           azure-pipeline-name: 'webapp'
            azure-devops-token: ${{ secrets.AZUREE_DVEOPS_TOKEN }}
